@@ -14,6 +14,14 @@ function buttonSub(){
     }
  };
 
+function openMovie(){
+   const movieIcon = document.querySelector('.movie-image');
+   const wacthOnline = document.querySelectorAll('watch-movie')
+    
+   if (movieIcon.innerHTML){
+      wacthOnline.innerHTML
+   };
+
 
  const swiper = new Swiper('.swiper', {
     autoplay:{
